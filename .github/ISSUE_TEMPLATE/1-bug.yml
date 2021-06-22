@@ -14,7 +14,7 @@ body:
     options:
       - label: I have read the [FAQ](https://filoghost.me/docs/holographic-displays/faq).
         required: true
-      - label: I have tested the [latest development build](https://ci.codemc.io/job/filoghost/job/HolographicDisplays) of Holographic Displays.
+      - label: I have tested the [latest development build](https://ci.codemc.io/job/filoghost/job/HolographicDisplays) of Holographic Displays and the bug is still present.
         required: true
       - label: I have updated **Spigot** and **ProtocolLib** (if installed) to the latest release for my particular Minecraft version.
         required: true
