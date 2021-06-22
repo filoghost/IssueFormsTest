@@ -10,7 +10,7 @@ body:
 - type: checkboxes
   attributes:
     label: Confirmation
-    description: "Please confirm to have done the following checks before opening a new issue."
+    description: Please confirm to have done the following checks before opening a new issue.
     options:
       - label: I have read the [FAQ](https://filoghost.me/docs/holographic-displays/faq).
         required: true
@@ -23,16 +23,15 @@ body:
 
 - type: textarea
   attributes:
-    label: "Description"
-    description: |-
-      Clear and concise description of the bug. What happened? What did you expect to happen instead?
+    label: Description
+    description: Clear and concise description of the bug. What happened? What did you expect to happen instead?
     placeholder: . The plugin did [ The plugin did (that). I expected instead that the result would be (...).
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: "How to reproduce"
+    label: How to reproduce
     description: List of steps to reproduce the bug.
     placeholder: |-
       1. Step 1
@@ -43,35 +42,35 @@ body:
 
 - type: input
   attributes:
-    label: "Server version"
-    description: "Output of the command `/version`"
-    placeholder: "This server is running CraftBukkit version 3132-Spigot-66f9d3c-40caacc (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT)"
+    label: Server version
+    description: Output of the command `/version`
+    placeholder: This server is running CraftBukkit version 3132-Spigot-66f9d3c-40caacc (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT)
   validations:
     required: true
 
 - type: input
   attributes:
-    label: "Holographic Displays version"
-    description: "Output of the command `/version HolographicDisplays`"
-    placeholder: "HolographicDisplays version 2.4.8-SNAPSHOT-b174"
+    label: Holographic Displays version
+    description: Output of the command `/version HolographicDisplays`
+    placeholder: HolographicDisplays version 2.4.8-SNAPSHOT-b174
   validations:
     required: true
 
 - type: input
   attributes:
-    label: "ProtocolLib version (if installed)"
-    description: "Output of the command `/version ProtocolLib`"
-    placeholder: "ProtocolLib version 4.6.0-SNAPSHOT-b476"
+    label: ProtocolLib version (if installed)
+    description: Output of the command `/version ProtocolLib`
+    placeholder: ProtocolLib version 4.6.0-SNAPSHOT-b476
 
 - type: input
   attributes:
-    label: "Do you use plugins that allow players to join with multiple Minecraft versions (such as ViaVersion, ViaBackwards, ProtocolSupport, ...)?"
+    label: Do you use plugins that allow players to join with multiple Minecraft versions (such as ViaVersion, ViaBackwards, ProtocolSupport, ...)?
     description: List the relevant plugins you use, if any.
-    placeholder: "ViaVersion, ViaBackwards"
+    placeholder: ViaVersion, ViaBackwards
 
 - type: textarea
   attributes:
-    label: "Additional information"
+    label: Additional information
     description: |-
       Relevant attachments such as **screenshots**, **server logs**, **configurations files** or any other additional information that might be useful.
       Text files can also be uploaded to [Pastebin](https://pastebin.com) and shared through the generated link.
