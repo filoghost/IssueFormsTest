@@ -73,5 +73,5 @@ body:
   attributes:
     label: "Additional information"
     description: |-
-      Any additional information that might be useful and relevant attachments such as **screenshots**, **server logs**, configurations files.
-      Text files can alternatively be uploaded to [Pastebin](https://pastebin.com).
+      Relevant attachments such as **screenshots**, **server logs**, **configurations files** or any other additional information that might be useful.
+      Text files can also be uploaded to [Pastebin](https://pastebin.com) and shared through the generated link.
