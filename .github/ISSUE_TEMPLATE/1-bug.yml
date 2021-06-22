@@ -8,7 +8,8 @@ body:
       ## Before opening a bug report:
        * Read the [FAQ](https://filoghost.me/docs/holographic-displays/faq)
        * Try the latest development build: [https://ci.codemc.io/job/filoghost/job/HolographicDisplays]()
-       * Make sure the bug hasn't already been reported (you can add comments to the existing issue)
+       * Try updating Spigot to the latest release of your version
+       * Make sure the bug hasn't already [been reported](?q=is%3Aissue)
       
       Don't paste long text files in the description, upload them as attachments or on Pastebin.
       
