@@ -6,7 +6,7 @@ body:
 - type: markdown
   attributes:
     value: |-     
-      Please fill this form carefully and provide the requested details. Thanks for contributing to the project.
+      Please fill this form carefully and provide the requested details. Thank you for contributing to the project.
 
 - type: checkboxes
   attributes:
