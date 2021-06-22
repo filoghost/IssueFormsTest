@@ -1,27 +1,19 @@
 name: 🐞 Bug Report
 description: Report a bug or some unexpected behavior.
-labels:
-- "Type: Issue (Unconfirmed)"
+labels: Bug
 body:
 - type: markdown
   attributes:
-    value: |-
-      ⚠️ READ BELOW BEFOR SUBMITTING ⚠️
-      
+    value: |-      
       Before opening a bug report:
-       * Read the FAQ: https://filoghost.me/docs/holographic-displays/faq
-       * Try the latest development build: https://ci.codemc.io/job/filoghost/job/HolographicDisplays
+       * Read the [FAQ](https://filoghost.me/docs/holographic-displays/faq) and the
+       * Try the latest development build: [https://ci.codemc.io/job/filoghost/job/HolographicDisplays]()
        * Make sure the bug hasn't already been reported (you can add comments to the existing issue)
       
       Don't paste long text files in the description, upload them as attachments or on Pastebin.
-
-      Thank you for taking your time and opening a Bug Report.
-      In order for us to process this Bug Report as fast and efficient as possible do we ask you to read the form carefully and provide any requested information.
+      
+      Please read the form carefully and provide any requested information.
       Required fields are marked with an asterisk symbol (`*`)
-      
-      Also, always make sure to use the latest Release from [Spigot](https://www.spigotmc.org/resources/6245/) or the latest Development Build from our [Jenkins Server](http://ci.extendedclip.com/job/PlaceholderAPI/) to make sure that your issue isn't already fixed.
-      
-      **DO NOT REPORT ISSUES WITH EXPANSIONS AND/OR PLACEHOLDERS. USE THE APPROPRIATE ISSUE TRACKER FOR THOSE!**
 - type: textarea
   attributes:
     label: "Description"
