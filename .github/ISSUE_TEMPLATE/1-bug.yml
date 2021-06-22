@@ -25,7 +25,7 @@ body:
   attributes:
     label: "Description"
     description: |-
-      Clear and concise description of the bug. <u>**Avoid long error logs**</u>, add them in the "Addition information" area at the bottom of this form.
+      Clear and concise description of the bug. <ins>Avoid long error logs</ins>, add them in the "Addition information" area at the bottom of this form.
     placeholder: "What happened? What did you expect to happen instead?"
   validations:
     required: true
