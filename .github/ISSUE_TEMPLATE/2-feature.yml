@@ -1,5 +1,5 @@
 name: 💡 Suggestion
-description: "Suggest a new feature or an improvement. ⚠ Note: suggestions have lower priority than bug reports."
+description: "Suggest a new feature or an improvement."
 labels:
 - "Enhancement"
 body:
