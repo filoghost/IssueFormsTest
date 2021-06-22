@@ -25,7 +25,7 @@ body:
   attributes:
     label: "Description"
     description: |-
-      Write a clear and concise description of the bug, describe what you expected to happen and what happened instead.
+      Clear and concise description of the bug. What happened? What did you expected to happen instead?
       Add any addition server log as attachment or upload them to [Pastebin](https://pastebin.com)
     placeholder: The plugin should do ..., instead it does ...
   validations:
