@@ -24,7 +24,9 @@ body:
 - type: textarea
   attributes:
     label: "Description"
-    description: "Clear and concise description of the bug. What happened? What did you expect to happen instead?"
+    description: |-
+      Clear and concise description of the bug. What happened? What did you expect to happen instead?
+      Avoid long error logs, add them in the "Addition information" area at the bottom of this form.
     placeholder: ". The plugin did [ The plugin did (that). I expected instead that the result would be (...)."
   validations:
     required: true
