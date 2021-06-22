@@ -27,36 +27,32 @@ body:
 - type: textarea
   attributes:
     label: "Description"
-    description: Write a clear description of the issue you're experiencing
-    placeholder: Description
+    description: Write a clear and concise description of the bug.
+    placeholder: What happened? What did you expect instead?
   validations:
     required: true
 - type: textarea
   attributes:
     label: "How to reproduce"
-    description: A list of steps to reproduce the bug
+    description: Provide a list of steps to reproduce the bug
     placeholder: |-
       1. Step 1
       2. Step 2
       3. ...
   validations:
     required: true
-- type: dropdown
+
+- type: textarea
   attributes:
-    label: "Type"
-    description: |-
-      What kind of Bug do you encounter?
-      
-      - `Plugin Bug`: PlaceholderAPI doesn't startup properly.
-      - `API Bug`: A method you use didn't work or has an unexpected result.
-      - `Plugin/Server Incompatability`: PlaceholderAPI either doesn't support a specific Server Type/Version or has conflicts with another plugin.
-    multiple: false
-    options:
-      - "Plugin Bug"
-      - "API Bug"
-      - "Plugin/Server Incompatability"
+    label: "How to reproduce"
+    description: Provide a list of steps to reproduce the bug
+    placeholder: |-
+      1. Step 1
+      2. Step 2
+      3. ...
   validations:
     required: true
+
 - type: textarea
   attributes:
     label: "What happens?"
