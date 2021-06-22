@@ -33,3 +33,10 @@ body:
       placeholder: "HolographicDisplays version 2.4.8-SNAPSHOT-b174"
     validations:
       required: true
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: |-
+        Relevant attachments such as **screenshots**, **server logs**, **configurations files** or any other additional information that might be useful.
+        Text files can also be uploaded to [Pastebin](https://pastebin.com) and shared through the generated link.
