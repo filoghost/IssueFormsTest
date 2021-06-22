@@ -11,6 +11,6 @@ body:
 - type: textarea
   attributes:
     label: "Description"
-    description: "Describe the new feature or improvement you suggest."
+    description: "Describe the new feature or improvement."
   validations:
     required: true
