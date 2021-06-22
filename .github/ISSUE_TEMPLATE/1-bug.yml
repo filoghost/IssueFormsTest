@@ -13,11 +13,11 @@ body:
     label: Confirmation
     description: "Please confirm to have done the following checks before reporting the bug."
     options:
-      - label: I have read the **[FAQ]**(https://filoghost.me/docs/holographic-displays/faq).
+      - label: I have read the [**FAQ**](https://filoghost.me/docs/holographic-displays/faq).
         required: true
       - label: I have tried using the [latest development build](https://ci.codemc.io/job/filoghost/job/HolographicDisplays) of Holographic Displays.
         required: true
-      - label: I have updated Spigot and ProtocolLib (if installed) to the latest release for my particular Minecraft version.
+      - label: I have updated **Spigot** and **ProtocolLib** (if installed) to the latest release for my particular Minecraft version.
         required: true
       - label: I made sure the bug hasn't already been reported on the [issue tracker](https://github.com/filoghost/HolographicDisplays/issues?q=is%3Aissue).
         required: true
