@@ -5,11 +5,8 @@ body:
 - type: markdown
   attributes:
     value: |-     
-      You're about to open a bug report, please fill the form carefully and provide any requested information. Thanks for contributing to the development of Holographic Displays.
-      
-      Don't paste long text files in the description, upload them as attachments or on [Pastebin](https://pastebin.com).
-      
-      Required fields are marked with an asterisk symbol (`*`)
+      Please fill the form carefully and provide any requested information, required fields are marked with an asterisk (`*`).
+      Thanks for contributing to the project.
 
 - type: checkboxes
   attributes:
