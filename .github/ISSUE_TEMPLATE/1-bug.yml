@@ -4,36 +4,43 @@ labels: Bug
 body:
 - type: markdown
   attributes:
-    value: |-      
-      ## Before opening a bug report:
-       * Read the [FAQ](https://filoghost.me/docs/holographic-displays/faq)
-       * Try the [latest development build](https://ci.codemc.io/job/filoghost/job/HolographicDisplays)
-       * Update Spigot to the latest release of your particular version
-       * Make sure the bug hasn't already been reported [here](https://github.com/filoghost/HolographicDisplays/issues?q=is%3Aissue)
+    value: |-     
+      You're about to open a bug report, please fill the form carefully and provide any requested information. Thanks for contributing to the development of Holographic Displays.
       
-      Don't paste long text files in the description, upload them as attachments or on Pastebin.
+      Don't paste long text files in the description, upload them as attachments or on [Pastebin](https://pastebin.com).
       
-      Please read the form carefully and provide any requested information.
       Required fields are marked with an asterisk symbol (`*`)
-- type: textarea
-  attributes:
-    label: "Description"
-    description: |-
-      Write a clear description of the issue you're experiencing
-    placeholder: Description
-  validations:
-    required: true
+
 - type: checkboxes
   attributes:
     label: Confirmation
     description: Please make sure to have followed the following checks.
     options:
-      - label: My issue isn't already found on the Issue tracker.
+      - label: I have read the [FAQ](https://filoghost.me/docs/holographic-displays/faq).
         required: true
-      - label: I have checked the [FAQ](https://filoghost.me/docs/holographic-displays/faq)
+      - label: I have tried to use the [latest development build](https://ci.codemc.io/job/filoghost/job/HolographicDisplays).
         required: true
-      - label: The issue isn't already fixed in a Spigot Release or Development Build.
+      - label: I have updated Spigot to the latest release for my particular Minecraft version.
         required: true
+      - label: I made sure the bug hasn't already been reported on the [issue tracker](https://github.com/filoghost/HolographicDisplays/issues?q=is%3Aissue).
+
+- type: textarea
+  attributes:
+    label: "Description"
+    description: Write a clear description of the issue you're experiencing
+    placeholder: Description
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: "How to reproduce"
+    description: A list of steps to reproduce the bug
+    placeholder: |-
+      1. Step 1
+      2. Step 2
+      3. ...
+  validations:
+    required: true
 - type: dropdown
   attributes:
     label: "Type"
@@ -62,18 +69,6 @@ body:
     label: "Expected Behaviour"
     description: "What behaviour did you expect from PlaceholderAPI?"
     placeholder: "PlaceholderAPI should actually do..."
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: "How to Reproduce"
-    description: |-
-      List the steps on how to reproduce this Bug.
-      Post any Code-examples in the `Additional Information` field below when you selected `API Bug`.
-    placeholder: |-
-      1. Do this
-      2. ...
-      3. Profit!
   validations:
     required: true
 - type: input
