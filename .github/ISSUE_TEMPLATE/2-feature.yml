@@ -8,11 +8,11 @@ body:
     value: |-     
       Please fill this form carefully and provide the requested details. Thank you for contributing to the project.
       
-      Suggest changes or additions that would benefit **as many users as possible**, not just a specific situation.
+      Suggest changes that would benefit as many users as possible, not just specific situations.
 
 - type: textarea
   attributes:
     label: "Description"
-    description: "Description of the new feature or improvement you would like to have."
+    description: "Describe the new feature or improvement you suggest."
   validations:
     required: true
