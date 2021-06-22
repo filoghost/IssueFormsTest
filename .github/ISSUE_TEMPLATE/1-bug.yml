@@ -44,7 +44,8 @@ body:
 
 - type: input
   attributes:
-    label: "Server version (output of `/version`):"
+    label: "Server version"
+    description: "Output of the command `/version`"
     placeholder: "This server is running CraftBukkit version 3132-Spigot-66f9d3c-40caacc (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT)"
   validations:
     required: true
@@ -52,7 +53,7 @@ body:
 - type: input
   attributes:
     label: "Holographic Displays version"
-    description: "Paste the output of the command `/version HolographicDisplays`"
+    description: "Output of the command `/version HolographicDisplays`"
     placeholder: "HolographicDisplays version 2.4.8-SNAPSHOT-b174"
   validations:
     required: true
@@ -60,7 +61,7 @@ body:
 - type: input
   attributes:
     label: "ProtocolLib version (if installed)"
-    description: "Paste the output of the command `/version ProtocolLib`"
+    description: "Output of the command `/version ProtocolLib`"
     placeholder: "ProtocolLib version 4.6.0-SNAPSHOT-b476"
   validations:
     required: true
