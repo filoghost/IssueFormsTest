@@ -26,7 +26,6 @@ body:
     label: "Description"
     description: |-
       Clear and concise description of the bug. What happened? What did you expected to happen instead?
-      Add any addition server log as attachment or upload them to [Pastebin](https://pastebin.com)
     placeholder: The plugin should do ..., instead it does ...
   validations:
     required: true
@@ -34,10 +33,10 @@ body:
 - type: textarea
   attributes:
     label: "How to reproduce"
-    description: Provide a list of steps to reproduce the bug
+    description: List of steps to reproduce the bug.
     placeholder: |-
-      1. Step 1
-      2. Step 2
+      1. Do this
+      2. Do that
       3. ...
   validations:
     required: true
@@ -68,8 +67,11 @@ body:
   attributes:
     label: "Do you use plugins that allow players to join with multiple Minecraft versions (such as ViaVersion, ViaBackwards, ProtocolSupport, ...)?"
     description: List the relevant plugins you use, if any.
+    placeholder: "ViaVersion, ViaBackwards"
 
 - type: textarea
   attributes:
     label: "Additional info"
-    description: Any additional info and attachments such as screenshots, server logs, configurations files.
+    description: |-
+      Any additional info and attachments such as screenshots, server logs, configurations files.
+      Textual files can also be uploaded to [Pastebin](https://pastebin.com).
