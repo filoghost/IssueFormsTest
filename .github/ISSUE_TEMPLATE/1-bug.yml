@@ -71,7 +71,7 @@ body:
 
 - type: textarea
   attributes:
-    label: "Additional info"
+    label: "Additional information"
     description: |-
-      Any additional info and attachments such as screenshots, server logs, configurations files.
-      Textual files can also be uploaded to [Pastebin](https://pastebin.com).
+      Any additional information that might be useful and relevant attachments such as **screenshots**, **server logs**, configurations files.
+      Text files can alternatively be uploaded to [Pastebin](https://pastebin.com).
