@@ -1,5 +1,5 @@
 name: 📚 Documentation improvement
-description: "Request a change to the documentation."
+description: "Suggest a change to improve to the documentation."
 labels:
   - "Documentation"
 body:
