@@ -65,7 +65,7 @@ body:
 - type: input
   attributes:
     label: "List of installed plugins that allow players to join with multiple Minecraft versions"
-    description: "List of installed plugins such as ViaVersion, ViaBackwards, ProtocolSupport (if any)."
+    description: "List plugins such as ViaVersion, ViaBackwards, ProtocolSupport that you're using, if any."
     placeholder: "ViaVersion, ViaBackwards"
 
 - type: textarea
