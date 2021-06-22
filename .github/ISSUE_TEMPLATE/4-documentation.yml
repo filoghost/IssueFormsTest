@@ -1,12 +1,12 @@
 name: 📚 Documentation improvement
-description: "Suggest a change to improve the official documentation."
+description: "Suggest a change or report an error to improve the official documentation."
 labels:
   - "Documentation"
 body:
   - type: markdown
     attributes:
       value: |-
-        Suggest a change to improve the official documentation. Thank you for contributing to the project.
+        Suggest a change or report an error to improve the official documentation. Thank you for contributing to the project.
 
   - type: textarea
     attributes:
