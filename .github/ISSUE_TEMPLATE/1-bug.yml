@@ -6,7 +6,7 @@ body:
   attributes:
     value: |-      
       Before opening a bug report:
-       * Read the [FAQ](https://filoghost.me/docs/holographic-displays/faq) and the
+       * Read the [FAQ](https://filoghost.me/docs/holographic-displays/faq)
        * Try the latest development build: [https://ci.codemc.io/job/filoghost/job/HolographicDisplays]()
        * Make sure the bug hasn't already been reported (you can add comments to the existing issue)
       
