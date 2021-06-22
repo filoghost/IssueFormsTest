@@ -5,7 +5,7 @@ body:
 - type: markdown
   attributes:
     value: |-     
-      Please fill the form carefully and provide any requested information. Thanks for contributing to the project.
+      Please fill the form carefully and provide the requested information. Thanks for contributing to the project.
 
 - type: checkboxes
   attributes:
@@ -16,7 +16,7 @@ body:
         required: true
       - label: I have tested the [latest development build](https://ci.codemc.io/job/filoghost/job/HolographicDisplays) of Holographic Displays and the bug is still present.
         required: true
-      - label: I have updated **Spigot** and **ProtocolLib** (if installed) to the latest release for my particular Minecraft version.
+      - label: I have updated **Spigot** (and **ProtocolLib** if installed) to the latest release for my particular Minecraft version.
         required: true
       - label: I made sure the bug hasn't already been reported on the [issue tracker](https://github.com/filoghost/HolographicDisplays/issues?q=is%3Aissue).
         required: true
