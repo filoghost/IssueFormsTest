@@ -5,8 +5,7 @@ body:
 - type: markdown
   attributes:
     value: |-     
-      Please fill the form carefully and provide any requested information, required fields are marked with an asterisk (`*`).
-      Thanks for contributing to the project.
+      Please fill the form carefully and provide any requested information. Thanks for contributing to the project.
 
 - type: checkboxes
   attributes:
