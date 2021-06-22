@@ -21,7 +21,6 @@ body:
       - label: My issue isn't already found on the Issue tracker.
         required: true
       - label: I have checked the [FAQ](https://filoghost.me/docs/holographic-displays/faq)
-        description: I have checked the [FAQ](https://filoghost.me/docs/holographic-displays/faq)
         required: true
       - label: The issue isn't already fixed in a Spigot Release or Development Build.
         required: true
