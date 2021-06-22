@@ -68,14 +68,10 @@ body:
 
 - type: input
   attributes:
-    label: "Do you use plugins to allow players to join with multiple Minecraft versions (such as ViaVersion, ProtocolSupport, ...):"
+    label: "Do you use plugins that allow players to join with multiple Minecraft versions (such as ViaVersion, ViaBackwards, ProtocolSupport, ...)?"
+    description: List the relevant plugins you use, if any.
 
 - type: textarea
   attributes:
     label: "Additional info"
-    description: |-
-      Attach here:
-      * Screenshots
-      * Server logs
-      * Configurations
-    placeholder: "Put any extra info you like into this field..."
+    description: Any additional info and attachments such as screenshots, server logs, configurations files.
