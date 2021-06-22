@@ -10,7 +10,8 @@ body:
 
 - type: checkboxes
   attributes:
-    label: "Please confirm to have done the following before proceeding:"
+    label: Confirmation
+    description: "Please confirm to have done the following checks before reporting the bug."
     options:
       - label: I have read the [FAQ](https://filoghost.me/docs/holographic-displays/faq).
         required: true
@@ -37,7 +38,7 @@ body:
     placeholder: |-
       1. Step 1
       2. Step 2
-      ...
+      3. ...
   validations:
     required: true
 
