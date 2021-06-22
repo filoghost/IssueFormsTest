@@ -1,0 +1,18 @@
+name: 💡 Suggestion
+description: Suggest a new feature or an improvement. ⚠ Note: suggestions have lower priority than bug reports.
+labels:
+- "Enhancement"
+body:
+- type: markdown
+  attributes:
+    value: |-     
+      Please fill this form carefully and provide the requested details. Thank you for contributing to the project.
+      
+      Only suggest changes that would benefit many users, not just a specific situation.
+
+- type: textarea
+  attributes:
+    label: "Description"
+    description: "Description of the new feature or improvement you would like to have."
+  validations:
+    required: true
