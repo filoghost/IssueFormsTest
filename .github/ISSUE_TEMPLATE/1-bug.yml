@@ -25,8 +25,8 @@ body:
   attributes:
     label: "Description"
     description: |-
-      Clear description of the bug. What happened? What did you expect to happen instead?
-    placeholder: When I did (X), I expected the plugin to do (Y), instead it did (Z)
+      Clear and concise description of the bug. What were you trying do? What happened? What did you expect to happen instead?
+    placeholder: I was trying to do (...). The plugin did (...). Instead, I expect that the plugin would do (...).
   validations:
     required: true
 
